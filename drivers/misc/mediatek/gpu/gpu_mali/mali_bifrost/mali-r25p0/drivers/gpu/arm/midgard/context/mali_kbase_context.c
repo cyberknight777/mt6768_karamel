@@ -343,3 +343,4 @@ void kbase_context_sticky_resource_term(struct kbase_context *kctx)
 	}
 	kbase_gpu_vm_unlock(kctx);
 }
+

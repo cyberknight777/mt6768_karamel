@@ -1928,3 +1928,4 @@ static inline bool kbase_device_is_cpu_coherent(struct kbase_device *kbdev)
 #define KBASE_AS_INACTIVE_MAX_LOOPS     100000000
 
 #endif				/* _KBASE_DEFS_H_ */
+

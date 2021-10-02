@@ -118,3 +118,4 @@ void kbase_timeline_stats(struct kbase_timeline *timeline, u32 *bytes_collected,
 #endif /* MALI_UNIT_TEST */
 
 #endif /* _KBASE_TIMELINE_H */
+

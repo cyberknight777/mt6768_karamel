@@ -261,3 +261,4 @@ void kbase_destroy_context(struct kbase_context *kctx)
 	kbase_pm_context_idle(kbdev);
 }
 KBASE_EXPORT_SYMBOL(kbase_destroy_context);
+

@@ -1490,7 +1490,7 @@ static int mtk_hdmi_dt_parse_pdata(struct mtk_hdmi *hdmi,
 	port = of_graph_get_port_by_id(np, 1);
 	if (!port) {
 		dev_err(dev, "Missing output port node\n");
-		ret = -EINVAL;
+		return -EINVAL;
 		goto put_device;
 	}
 
@@ -1509,8 +1509,7 @@ static int mtk_hdmi_dt_parse_pdata(struct mtk_hdmi *hdmi,
 		dev_err(dev, "Missing connector/bridge node for endpoint %s\n",
 			ep->full_name);
 		of_node_put(ep);
-		ret = -EINVAL;
-		goto put_device;
+		return -EINVAL;
 	}
 	of_node_put(ep);
 

@@ -3489,3 +3489,5 @@ static int kbase_csf_cpu_mmap_user_reg_page(struct kbase_context *kctx,
 }
 
 #endif /* MALI_USE_CSF */
+
+
