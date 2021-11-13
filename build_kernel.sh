@@ -96,8 +96,8 @@ zipping() {
 build_kernel() {
   find "$OUTDIR" -name *.gz-dtb -delete
   [[ $LTO == true ]] && echo "CONFIG_LTO_CLANG=y" >> arch/arm64/configs/"$DEFCONFIG"
-  echo "-Genom-R-$CONFIG" > localversion
-  make O="$OUTDIR" ARCH=arm64 xiaomi_defconfig "xiaomi/$DEFCONFIG"
+  echo "-Cloud-$CONFIG" > localversion
+  make O="$OUTDIR" ARCH=arm64 merlin_defconfig "configs/$DEFCONFIG"
   make -j"$PROCS" O="$OUTDIR" \
                   ARCH=arm64 \
                   CC=clang \
@@ -116,11 +116,11 @@ if [[ $CLONE == true ]]
 then
   echo "Cloning dependencies"
   git clone https://github.com/rama982/clang --depth=1  "$OUTDIR"/clang-llvm
-  git clone https://github.com/rama982/AnyKernel3 --depth=1 "$OUTDIR"/AnyKernel
+  git clone https://github.com/cloudprject/AnyKernel3 --depth=1 "$OUTDIR"/AnyKernel
 fi
 
 #telegram env
-CHATID=-1001459070028
+CHATID=-1001536486096
 BOT_MSG_URL="https://api.telegram.org/bot$TOKEN/sendMessage"
 BOT_BUILD_URL="https://api.telegram.org/bot$TOKEN/sendDocument"
 
@@ -128,7 +128,7 @@ BOT_BUILD_URL="https://api.telegram.org/bot$TOKEN/sendDocument"
 export DEFCONFIG=$CONFIG".config"
 export TZ="Asia/Jakarta"
 export KERNEL_DIR=$(pwd)
-export ZIPNAME="Genom-R"
+export ZIPNAME="Cloud"
 export IMAGE="${OUTDIR}/arch/arm64/boot/Image.gz-dtb"
 export DATE=$(date "+%m%d")
 export BRANCH="$(git rev-parse --abbrev-ref HEAD)"
@@ -136,7 +136,7 @@ export PATH="${OUTDIR}/clang-llvm/bin:${PATH}"
 export KBUILD_COMPILER_STRING="$(${OUTDIR}/clang-llvm/bin/clang --version | head -n 1 | perl -pe 's/\(http.*?\)//gs' | sed -e 's/  */ /g')"
 export KBUILD_BUILD_HOST=$(uname -a | awk '{print $2}')
 export ARCH=arm64
-export KBUILD_BUILD_USER=rama982
+export KBUILD_BUILD_USER=prof31
 export HASH_HEAD=$(git rev-parse --short HEAD)
 export COMMIT_HEAD=$(git log --oneline -1)
 export PROCS=$(nproc --all)
