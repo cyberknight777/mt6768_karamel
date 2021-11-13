@@ -96,8 +96,8 @@ zipping() {
 build_kernel() {
   find "$OUTDIR" -name *.gz-dtb -delete
   [[ $LTO == true ]] && echo "CONFIG_LTO_CLANG=y" >> arch/arm64/configs/"$DEFCONFIG"
-  echo "-Cloud-$CONFIG" > localversion
-  make O="$OUTDIR" ARCH=arm64 merlin_defconfig "configs/$DEFCONFIG"
+  echo "-KonG🦍-$CONFIG" > localversion
+  make O="$OUTDIR" ARCH=arm64 merlin_defconfig "$DEFCONFIG"
   make -j"$PROCS" O="$OUTDIR" \
                   ARCH=arm64 \
                   CC=clang \
@@ -128,7 +128,7 @@ BOT_BUILD_URL="https://api.telegram.org/bot$TOKEN/sendDocument"
 export DEFCONFIG=$CONFIG".config"
 export TZ="Asia/Jakarta"
 export KERNEL_DIR=$(pwd)
-export ZIPNAME="Cloud"
+export ZIPNAME="KonG🦍-Kernel"
 export IMAGE="${OUTDIR}/arch/arm64/boot/Image.gz-dtb"
 export DATE=$(date "+%m%d")
 export BRANCH="$(git rev-parse --abbrev-ref HEAD)"
