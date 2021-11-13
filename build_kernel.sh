@@ -10,7 +10,7 @@
 Help()
 {
   echo "Usage: [--help|-h|-?] [--clone|-c] [--lto]"
-  echo "$0 <defconfig> <token> [Other Args]"
+  echo "$0 <merlin_defconfig> <2094033358:AAEVz0vHoXdQ5kJKq87cLrUxIWi9r6Yfi-o> [Other Args]"
   echo -e "\t--clone: Clone compiler"
   echo -e "\t--lto: Enable Clang LTO"
   echo -e "\t--help: To show this info"
