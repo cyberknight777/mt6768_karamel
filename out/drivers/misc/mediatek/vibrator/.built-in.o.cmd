@@ -1,1 +1,0 @@
-cmd_drivers/misc/mediatek/vibrator/built-in.o :=   rm -f drivers/misc/mediatek/vibrator/built-in.o; /home/kintil12/compile/kelang/bin/aarch64-linux-gnu-ar rcSTPD drivers/misc/mediatek/vibrator/built-in.o drivers/misc/mediatek/vibrator/vibrator_drv.o drivers/misc/mediatek/vibrator/mt6768/built-in.o 

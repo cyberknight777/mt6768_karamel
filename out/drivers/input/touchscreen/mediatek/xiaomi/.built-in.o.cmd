@@ -1,1 +1,0 @@
-cmd_drivers/input/touchscreen/mediatek/xiaomi/built-in.o :=   rm -f drivers/input/touchscreen/mediatek/xiaomi/built-in.o; /home/kintil12/compile/kelang/bin/aarch64-linux-gnu-ar rcSTPD drivers/input/touchscreen/mediatek/xiaomi/built-in.o drivers/input/touchscreen/mediatek/xiaomi/xiaomi_touch.o 

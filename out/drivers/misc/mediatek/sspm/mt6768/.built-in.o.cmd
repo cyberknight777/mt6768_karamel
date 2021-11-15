@@ -1,1 +1,0 @@
-cmd_drivers/misc/mediatek/sspm/mt6768/built-in.o :=   rm -f drivers/misc/mediatek/sspm/mt6768/built-in.o; /home/kintil12/compile/kelang/bin/aarch64-linux-gnu-ar rcSTPD drivers/misc/mediatek/sspm/mt6768/built-in.o drivers/misc/mediatek/sspm/mt6768/../v1/built-in.o drivers/misc/mediatek/sspm/mt6768/sspm_emi_mpu.o drivers/misc/mediatek/sspm/mt6768/sspm_ipi_timeout_cb.o 

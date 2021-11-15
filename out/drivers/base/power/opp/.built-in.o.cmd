@@ -1,1 +1,0 @@
-cmd_drivers/base/power/opp/built-in.o :=   rm -f drivers/base/power/opp/built-in.o; /home/kintil12/compile/kelang/bin/aarch64-linux-gnu-ar rcSTPD drivers/base/power/opp/built-in.o drivers/base/power/opp/core.o drivers/base/power/opp/cpu.o drivers/base/power/opp/of.o 

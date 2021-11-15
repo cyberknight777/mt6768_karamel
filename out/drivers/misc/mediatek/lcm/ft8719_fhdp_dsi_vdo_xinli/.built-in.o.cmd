@@ -1,1 +1,0 @@
-cmd_drivers/misc/mediatek/lcm/ft8719_fhdp_dsi_vdo_xinli/built-in.o :=   rm -f drivers/misc/mediatek/lcm/ft8719_fhdp_dsi_vdo_xinli/built-in.o; /home/kintil12/compile/kelang/bin/aarch64-linux-gnu-ar rcSTPD drivers/misc/mediatek/lcm/ft8719_fhdp_dsi_vdo_xinli/built-in.o drivers/misc/mediatek/lcm/ft8719_fhdp_dsi_vdo_xinli/ft8719_fhdp_dsi_vdo_xinli.o 

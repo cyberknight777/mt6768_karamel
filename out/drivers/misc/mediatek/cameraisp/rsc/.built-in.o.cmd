@@ -1,1 +1,0 @@
-cmd_drivers/misc/mediatek/cameraisp/rsc/built-in.o :=   rm -f drivers/misc/mediatek/cameraisp/rsc/built-in.o; /home/kintil12/compile/kelang/bin/aarch64-linux-gnu-ar rcSTPD drivers/misc/mediatek/cameraisp/rsc/built-in.o drivers/misc/mediatek/cameraisp/rsc/camera_rsc_dummy.o drivers/misc/mediatek/cameraisp/rsc/engine_request.o 

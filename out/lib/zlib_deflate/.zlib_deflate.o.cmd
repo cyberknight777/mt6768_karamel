@@ -1,1 +1,0 @@
-cmd_lib/zlib_deflate/zlib_deflate.o :=  rm -f lib/zlib_deflate/zlib_deflate.o; /home/kintil12/compile/kelang/bin/aarch64-linux-gnu-ar rcSTPD lib/zlib_deflate/zlib_deflate.o lib/zlib_deflate/deflate.o lib/zlib_deflate/deftree.o lib/zlib_deflate/deflate_syms.o 

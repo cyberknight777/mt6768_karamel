@@ -1,1 +1,0 @@
-cmd_drivers/staging/nanohub/nanohub.o :=  rm -f drivers/staging/nanohub/nanohub.o; /home/kintil12/compile/kelang/bin/aarch64-linux-gnu-ar rcSTPD drivers/staging/nanohub/nanohub.o drivers/staging/nanohub/main.o drivers/staging/nanohub/bl.o drivers/staging/nanohub/comms.o drivers/staging/nanohub/nanohub-mtk.o 

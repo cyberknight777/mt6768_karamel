@@ -1,1 +1,0 @@
-cmd_drivers/input/fingerprint/goodix/built-in.o :=   rm -f drivers/input/fingerprint/goodix/built-in.o; /home/kintil12/compile/kelang/bin/aarch64-linux-gnu-ar rcSTPD drivers/input/fingerprint/goodix/built-in.o drivers/input/fingerprint/goodix/gf_spi_tee.o drivers/input/fingerprint/goodix/gf_spi_factory.o 

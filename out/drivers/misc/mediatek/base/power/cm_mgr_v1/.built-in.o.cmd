@@ -1,1 +1,0 @@
-cmd_drivers/misc/mediatek/base/power/cm_mgr_v1/built-in.o :=   rm -f drivers/misc/mediatek/base/power/cm_mgr_v1/built-in.o; /home/kintil12/compile/kelang/bin/aarch64-linux-gnu-ar rcSTPD drivers/misc/mediatek/base/power/cm_mgr_v1/built-in.o drivers/misc/mediatek/base/power/cm_mgr_v1/mtk_cm_mgr.o drivers/misc/mediatek/base/power/cm_mgr_v1/mt6768/built-in.o 

@@ -1,1 +1,0 @@
-cmd_drivers/misc/mediatek/cmdq/built-in.o :=   rm -f drivers/misc/mediatek/cmdq/built-in.o; /home/kintil12/compile/kelang/bin/aarch64-linux-gnu-ar rcSTPD drivers/misc/mediatek/cmdq/built-in.o drivers/misc/mediatek/cmdq/v3/built-in.o drivers/misc/mediatek/cmdq/mdp_sync/built-in.o 

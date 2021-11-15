@@ -1,1 +1,0 @@
-cmd_fs/notify/dnotify/built-in.o :=   rm -f fs/notify/dnotify/built-in.o; /home/kintil12/compile/kelang/bin/aarch64-linux-gnu-ar rcSTPD fs/notify/dnotify/built-in.o fs/notify/dnotify/dnotify.o 

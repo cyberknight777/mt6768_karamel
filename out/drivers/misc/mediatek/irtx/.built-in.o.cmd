@@ -1,1 +1,0 @@
-cmd_drivers/misc/mediatek/irtx/built-in.o :=   rm -f drivers/misc/mediatek/irtx/built-in.o; /home/kintil12/compile/kelang/bin/aarch64-linux-gnu-ar rcSTPD drivers/misc/mediatek/irtx/built-in.o drivers/misc/mediatek/irtx/mtk_irtx_pwm.o 

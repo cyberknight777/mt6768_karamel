@@ -1,1 +1,0 @@
-cmd_drivers/mailbox/built-in.o :=   rm -f drivers/mailbox/built-in.o; /home/kintil12/compile/kelang/bin/aarch64-linux-gnu-ar rcSTPD drivers/mailbox/built-in.o drivers/mailbox/mailbox.o drivers/mailbox/mtk-cmdq-mailbox.o 

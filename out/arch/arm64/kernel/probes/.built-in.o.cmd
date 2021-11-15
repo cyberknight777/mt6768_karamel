@@ -1,1 +1,0 @@
-cmd_arch/arm64/kernel/probes/built-in.o :=   rm -f arch/arm64/kernel/probes/built-in.o; /home/kintil12/compile/kelang/bin/aarch64-linux-gnu-ar rcSTPD arch/arm64/kernel/probes/built-in.o arch/arm64/kernel/probes/uprobes.o arch/arm64/kernel/probes/decode-insn.o arch/arm64/kernel/probes/simulate-insn.o 

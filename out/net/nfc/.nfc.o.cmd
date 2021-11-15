@@ -1,1 +1,0 @@
-cmd_net/nfc/nfc.o :=  rm -f net/nfc/nfc.o; /home/kintil12/compile/kelang/bin/aarch64-linux-gnu-ar rcSTPD net/nfc/nfc.o net/nfc/core.o net/nfc/netlink.o net/nfc/af_nfc.o net/nfc/rawsock.o net/nfc/llcp_core.o net/nfc/llcp_commands.o net/nfc/llcp_sock.o 

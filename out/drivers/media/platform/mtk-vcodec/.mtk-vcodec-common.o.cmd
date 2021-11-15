@@ -1,1 +1,0 @@
-cmd_drivers/media/platform/mtk-vcodec/mtk-vcodec-common.o :=  rm -f drivers/media/platform/mtk-vcodec/mtk-vcodec-common.o; /home/kintil12/compile/kelang/bin/aarch64-linux-gnu-ar rcSTPD drivers/media/platform/mtk-vcodec/mtk-vcodec-common.o drivers/media/platform/mtk-vcodec/mt6768/mtk_vcodec_intr.o drivers/media/platform/mtk-vcodec/mtk_vcodec_util.o 

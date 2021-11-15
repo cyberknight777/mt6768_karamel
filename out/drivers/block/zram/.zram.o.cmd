@@ -1,1 +1,0 @@
-cmd_drivers/block/zram/zram.o :=  rm -f drivers/block/zram/zram.o; /home/kintil12/compile/kelang/bin/aarch64-linux-gnu-ar rcSTPD drivers/block/zram/zram.o drivers/block/zram/zcomp.o drivers/block/zram/zram_drv.o 

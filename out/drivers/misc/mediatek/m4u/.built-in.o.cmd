@@ -1,1 +1,0 @@
-cmd_drivers/misc/mediatek/m4u/built-in.o :=   rm -f drivers/misc/mediatek/m4u/built-in.o; /home/kintil12/compile/kelang/bin/aarch64-linux-gnu-ar rcSTPD drivers/misc/mediatek/m4u/built-in.o drivers/misc/mediatek/m4u/mt6768/built-in.o drivers/misc/mediatek/m4u/2.0/built-in.o 

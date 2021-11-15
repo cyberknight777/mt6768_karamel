@@ -1,1 +1,0 @@
-cmd_drivers/input/input-core.o :=  rm -f drivers/input/input-core.o; /home/kintil12/compile/kelang/bin/aarch64-linux-gnu-ar rcSTPD drivers/input/input-core.o drivers/input/input.o drivers/input/input-compat.o drivers/input/input-mt.o drivers/input/ff-core.o 

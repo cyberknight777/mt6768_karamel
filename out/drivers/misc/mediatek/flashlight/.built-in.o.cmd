@@ -1,1 +1,0 @@
-cmd_drivers/misc/mediatek/flashlight/built-in.o :=   rm -f drivers/misc/mediatek/flashlight/built-in.o; /home/kintil12/compile/kelang/bin/aarch64-linux-gnu-ar rcSTPD drivers/misc/mediatek/flashlight/built-in.o drivers/misc/mediatek/flashlight/flashlight.o drivers/misc/mediatek/flashlight/flashlights-led191.o 

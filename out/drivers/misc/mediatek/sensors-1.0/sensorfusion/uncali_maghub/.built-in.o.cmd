@@ -1,1 +1,0 @@
-cmd_drivers/misc/mediatek/sensors-1.0/sensorfusion/uncali_maghub/built-in.o :=   rm -f drivers/misc/mediatek/sensors-1.0/sensorfusion/uncali_maghub/built-in.o; /home/kintil12/compile/kelang/bin/aarch64-linux-gnu-ar rcSTPD drivers/misc/mediatek/sensors-1.0/sensorfusion/uncali_maghub/built-in.o drivers/misc/mediatek/sensors-1.0/sensorfusion/uncali_maghub/uncali_maghub.o 

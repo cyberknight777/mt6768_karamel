@@ -1,1 +1,0 @@
-cmd_drivers/misc/mediatek/connectivity/wlan/core/gen4m/built-in.o :=   rm -f drivers/misc/mediatek/connectivity/wlan/core/gen4m/built-in.o; /home/kintil12/compile/kelang/bin/aarch64-linux-gnu-ar rcSTPD drivers/misc/mediatek/connectivity/wlan/core/gen4m/built-in.o drivers/misc/mediatek/connectivity/wlan/core/gen4m/wlan_drv_gen4m.o 

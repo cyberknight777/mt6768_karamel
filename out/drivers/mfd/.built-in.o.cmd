@@ -1,1 +1,0 @@
-cmd_drivers/mfd/built-in.o :=   rm -f drivers/mfd/built-in.o; /home/kintil12/compile/kelang/bin/aarch64-linux-gnu-ar rcSTPD drivers/mfd/built-in.o drivers/mfd/mfd-core.o drivers/mfd/ti-lmu.o drivers/mfd/syscon.o drivers/mfd/mt6358-core.o drivers/mfd/mt635x-ot-debug.o drivers/mfd/mt6358-misc.o 

@@ -1,8 +1,0 @@
-arch/arm64/boot/dts/mediatek/.merlin.dtbo.dts.tmp: \
-  ../arch/arm64/boot/dts/mediatek/merlin.dts \
-  ../scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h \
-  ../scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h \
-  ../scripts/dtc/include-prefixes/dt-bindings/pinctrl/mt6768-pinfunc.h \
-  ../scripts/dtc/include-prefixes/dt-bindings/pinctrl/mt65xx.h \
-  ../arch/arm64/boot/dts/mediatek/merlin/cust.dtsi \
-  ../arch/arm64/boot/dts/mediatek/cust_mt6768_camera.dtsi

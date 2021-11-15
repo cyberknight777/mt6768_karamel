@@ -1,1 +1,0 @@
-cmd_drivers/irqchip/built-in.o :=   rm -f drivers/irqchip/built-in.o; /home/kintil12/compile/kelang/bin/aarch64-linux-gnu-ar rcSTPD drivers/irqchip/built-in.o drivers/irqchip/irqchip.o drivers/irqchip/irq-gic.o drivers/irqchip/irq-gic-common.o drivers/irqchip/irq-gic-v3.o drivers/irqchip/irq-partition-percpu.o drivers/irqchip/irq-mtk-sysirq.o 

@@ -1,1 +1,0 @@
-cmd_drivers/spi/built-in.o :=   rm -f drivers/spi/built-in.o; /home/kintil12/compile/kelang/bin/aarch64-linux-gnu-ar rcSTPD drivers/spi/built-in.o drivers/spi/spi.o drivers/spi/spi-mt65xx.o drivers/spi/spi-mt65xx-dev.o 

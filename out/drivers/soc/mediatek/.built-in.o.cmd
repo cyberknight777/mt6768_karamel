@@ -1,1 +1,0 @@
-cmd_drivers/soc/mediatek/built-in.o :=   rm -f drivers/soc/mediatek/built-in.o; /home/kintil12/compile/kelang/bin/aarch64-linux-gnu-ar rcSTPD drivers/soc/mediatek/built-in.o drivers/soc/mediatek/mtk-pmic-wrap.o drivers/soc/mediatek/mtk-cmdq-helper.o 

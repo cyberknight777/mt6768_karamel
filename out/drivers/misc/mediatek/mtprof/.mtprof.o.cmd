@@ -1,1 +1,0 @@
-cmd_drivers/misc/mediatek/mtprof/mtprof.o :=  rm -f drivers/misc/mediatek/mtprof/mtprof.o; /home/kintil12/compile/kelang/bin/aarch64-linux-gnu-ar rcSTPD drivers/misc/mediatek/mtprof/mtprof.o drivers/misc/mediatek/mtprof/prof_main.o 

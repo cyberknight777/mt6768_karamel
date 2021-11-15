@@ -1,1 +1,0 @@
-cmd_drivers/misc/mediatek/imgsensor/src/built-in.o :=   rm -f drivers/misc/mediatek/imgsensor/src/built-in.o; /home/kintil12/compile/kelang/bin/aarch64-linux-gnu-ar rcSTPD drivers/misc/mediatek/imgsensor/src/built-in.o drivers/misc/mediatek/imgsensor/src/mt6768/built-in.o 

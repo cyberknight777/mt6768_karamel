@@ -1,1 +1,0 @@
-cmd_drivers/misc/mediatek/freqhopping/built-in.o :=   rm -f drivers/misc/mediatek/freqhopping/built-in.o; /home/kintil12/compile/kelang/bin/aarch64-linux-gnu-ar rcSTPD drivers/misc/mediatek/freqhopping/built-in.o drivers/misc/mediatek/freqhopping/mtk_freqhopping_drv.o drivers/misc/mediatek/freqhopping/mt6768/built-in.o 

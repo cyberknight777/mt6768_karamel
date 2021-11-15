@@ -1,1 +1,0 @@
-cmd_drivers/misc/mediatek/lcm/nt36672A_fhdp_dsi_vdo_tianma_G6/built-in.o :=   rm -f drivers/misc/mediatek/lcm/nt36672A_fhdp_dsi_vdo_tianma_G6/built-in.o; /home/kintil12/compile/kelang/bin/aarch64-linux-gnu-ar rcSTPD drivers/misc/mediatek/lcm/nt36672A_fhdp_dsi_vdo_tianma_G6/built-in.o drivers/misc/mediatek/lcm/nt36672A_fhdp_dsi_vdo_tianma_G6/nt36672A_fhdp_dsi_vdo_tianma_G6.o 

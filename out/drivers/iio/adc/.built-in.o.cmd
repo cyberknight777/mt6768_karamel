@@ -1,1 +1,0 @@
-cmd_drivers/iio/adc/built-in.o :=   rm -f drivers/iio/adc/built-in.o; /home/kintil12/compile/kelang/bin/aarch64-linux-gnu-ar rcSTPD drivers/iio/adc/built-in.o drivers/iio/adc/mt6577_auxadc.o drivers/iio/adc/mt635x-auxadc.o 
