@@ -1,0 +1,49 @@
+!<thin>
+//                                              656       `
+mtk_thermal_platform.o/
+ap_thermal_limit.o/
+thermal_zones/mtk_ts_battery.o/
+thermal_zones/mtk_ts_bts.o/
+thermal_zones/mtk_ts_btsmdpa.o/
+thermal_zones/mtk_ts_cpu_noBank.o/
+thermal_zones/mtk_ts_pa.o/
+thermal_zones/mtk_ts_pa_thput.o/
+thermal_zones/mtk_ts_charger.o/
+thermal_zones/mtk_ts_wmt.o/
+thermal_zones/mtk_tsAll.o/
+thermal_zones/mtk_ts_imgsensor.o/
+thermal_zones/mtk_ts_dctm.o/
+thermal_zones/mtk_ts_pmic.o/
+thermal_zones/mtk_ts_blk_ntc.o/
+coolers/mtk_ta.o/
+coolers/mtk_cooler_mutt.o/
+coolers/mtk_cooler_atm.o/
+coolers/mtk_cooler_gpu_cus.o/
+coolers/mtk_cooler_char_curr_cus.o/
+coolers/mtk_cooler_dtm.o/
+coolers/mtk_cooler_sysrst.o/
+mtk_thermal_timer.o/
+
+/0              0           0     0     644     14464     `
+/24             0           0     0     644     14704     `
+/44             0           0     0     644     19952     `
+/76             0           0     0     644     25392     `
+/104            0           0     0     644     25408     `
+/136            0           0     0     644     65992     `
+/171            0           0     0     644     24072     `
+/198            0           0     0     644     23392     `
+/231            0           0     0     644     20816     `
+/263            0           0     0     644     109432    `
+/291            0           0     0     644     71840     `
+/318            0           0     0     644     186440    `
+/352            0           0     0     644     48568     `
+/381            0           0     0     644     28448     `
+/410            0           0     0     644     57112     `
+/442            0           0     0     644     21736     `
+/460            0           0     0     644     50208     `
+/487            0           0     0     644     75352     `
+/513            0           0     0     644     6416      `
+/543            0           0     0     644     11696     `
+/579            0           0     0     644     14952     `
+/605            0           0     0     644     7872      `
+/634            0           0     0     644     4512      `

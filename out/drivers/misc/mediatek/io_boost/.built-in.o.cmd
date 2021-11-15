@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/io_boost/built-in.o :=   rm -f drivers/misc/mediatek/io_boost/built-in.o; /home/kintil12/compile/kelang/bin/aarch64-linux-gnu-ar rcSTPD drivers/misc/mediatek/io_boost/built-in.o drivers/misc/mediatek/io_boost/mtk_io_boost.o 

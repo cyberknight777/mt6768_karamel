@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/gpu/ged/built-in.o :=   rm -f drivers/misc/mediatek/gpu/ged/built-in.o; /home/kintil12/compile/kelang/bin/aarch64-linux-gnu-ar rcSTPD drivers/misc/mediatek/gpu/ged/built-in.o drivers/misc/mediatek/gpu/ged/ged.o 

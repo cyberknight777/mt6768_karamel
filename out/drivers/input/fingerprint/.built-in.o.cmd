@@ -1,0 +1,1 @@
+cmd_drivers/input/fingerprint/built-in.o :=   rm -f drivers/input/fingerprint/built-in.o; /home/kintil12/compile/kelang/bin/aarch64-linux-gnu-ar rcSTPD drivers/input/fingerprint/built-in.o drivers/input/fingerprint/goodix/built-in.o drivers/input/fingerprint/fpc/built-in.o 

@@ -1,0 +1,23 @@
+!<thin>
+//                                              270       `
+situation.o/
+stationary/stationary.o/
+wake_gesture/wake_gesture.o/
+glance_gesture/glance_gesture.o/
+pickup_gesture/pickup_gesture.o/
+device_orientation/device_orientation.o/
+motion_detect/motion_detect.o/
+tilt_detector/tiltdetecthub.o/
+sar/sarhub.o/
+sar/sar_factory.o/
+
+/0              0           0     0     644     34112     `
+/13             0           0     0     644     6328      `
+/38             0           0     0     644     6416      `
+/67             0           0     0     644     5840      `
+/100            0           0     0     644     6056      `
+/133            0           0     0     644     6432      `
+/174            0           0     0     644     6520      `
+/205            0           0     0     644     5680      `
+/236            0           0     0     644     10016     `
+/250            0           0     0     644     8336      `

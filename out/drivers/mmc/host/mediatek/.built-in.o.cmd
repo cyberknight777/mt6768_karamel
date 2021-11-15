@@ -1,0 +1,1 @@
+cmd_drivers/mmc/host/mediatek/built-in.o :=   rm -f drivers/mmc/host/mediatek/built-in.o; /home/kintil12/compile/kelang/bin/aarch64-linux-gnu-ar rcSTPD drivers/mmc/host/mediatek/built-in.o drivers/mmc/host/mediatek/ComboA/built-in.o 

@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/cameraisp/dpe/built-in.o :=   rm -f drivers/misc/mediatek/cameraisp/dpe/built-in.o; /home/kintil12/compile/kelang/bin/aarch64-linux-gnu-ar rcSTPD drivers/misc/mediatek/cameraisp/dpe/built-in.o drivers/misc/mediatek/cameraisp/dpe/cameradpe_dummy.o drivers/misc/mediatek/cameraisp/dpe/mt6768/camera_dpe.o 

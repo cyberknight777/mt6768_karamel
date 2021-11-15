@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/ccu/src/built-in.o :=   rm -f drivers/misc/mediatek/ccu/src/built-in.o; /home/kintil12/compile/kelang/bin/aarch64-linux-gnu-ar rcSTPD drivers/misc/mediatek/ccu/src/built-in.o drivers/misc/mediatek/ccu/src/mt6768/built-in.o drivers/misc/mediatek/ccu/src/1.2/built-in.o 

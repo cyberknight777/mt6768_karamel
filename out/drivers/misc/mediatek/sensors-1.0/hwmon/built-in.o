@@ -1,0 +1,15 @@
+!<thin>
+//                                              180       `
+hwmsen/hwmsen_helper.o/
+sensor_dts/sensor_dts.o/
+sensor_attributes/sensor_attr.o/
+sensor_event/sensor_event.o/
+sensor_performance/sensor_performance.o/
+sensor_list/sensor_list.o/
+
+/0              0           0     0     644     47168     `
+/24             0           0     0     644     11560     `
+/49             0           0     0     644     6408      `
+/82             0           0     0     644     6616      `
+/111            0           0     0     644     1016      `
+/152            0           0     0     644     8464      `

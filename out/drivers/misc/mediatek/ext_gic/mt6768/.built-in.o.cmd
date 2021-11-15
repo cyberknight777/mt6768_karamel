@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/ext_gic/mt6768/built-in.o :=   rm -f drivers/misc/mediatek/ext_gic/mt6768/built-in.o; /home/kintil12/compile/kelang/bin/aarch64-linux-gnu-ar rcSTPD drivers/misc/mediatek/ext_gic/mt6768/built-in.o drivers/misc/mediatek/ext_gic/mt6768/plat_sw_mode.o 

@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/lens/main/common/lc898217afa/built-in.o :=   rm -f drivers/misc/mediatek/lens/main/common/lc898217afa/built-in.o; /home/kintil12/compile/kelang/bin/aarch64-linux-gnu-ar rcSTPD drivers/misc/mediatek/lens/main/common/lc898217afa/built-in.o drivers/misc/mediatek/lens/main/common/lc898217afa/LC898217AFA.o 

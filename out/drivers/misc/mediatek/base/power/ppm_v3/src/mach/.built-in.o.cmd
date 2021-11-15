@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/base/power/ppm_v3/src/mach/built-in.o :=   rm -f drivers/misc/mediatek/base/power/ppm_v3/src/mach/built-in.o; /home/kintil12/compile/kelang/bin/aarch64-linux-gnu-ar rcSTPD drivers/misc/mediatek/base/power/ppm_v3/src/mach/built-in.o drivers/misc/mediatek/base/power/ppm_v3/src/mach/mt6768/built-in.o 

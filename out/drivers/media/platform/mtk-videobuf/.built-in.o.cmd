@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/mtk-videobuf/built-in.o :=   rm -f drivers/media/platform/mtk-videobuf/built-in.o; /home/kintil12/compile/kelang/bin/aarch64-linux-gnu-ar rcSTPD drivers/media/platform/mtk-videobuf/built-in.o drivers/media/platform/mtk-videobuf/mtk-dma-contig.o 

@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/cameraisp/mfb/built-in.o :=   rm -f drivers/misc/mediatek/cameraisp/mfb/built-in.o; /home/kintil12/compile/kelang/bin/aarch64-linux-gnu-ar rcSTPD drivers/misc/mediatek/cameraisp/mfb/built-in.o drivers/misc/mediatek/cameraisp/mfb/camera_mfb_dummy.o 

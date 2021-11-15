@@ -1,0 +1,12 @@
+!<thin>
+//                                              120       `
+mtk_leds_drv.o/
+mt6768/mtk_leds.o/
+mt6768/ktd3136_bl.o/
+mt6768/ti-lmu-backlight-core.o/
+mt6768/ti-lmu-backlight-data.o/
+/0              0           0     0     644     19112     `
+/16             0           0     0     644     30104     `
+/35             0           0     0     644     56432     `
+/56             0           0     0     644     42936     `
+/88             0           0     0     644     7360      `

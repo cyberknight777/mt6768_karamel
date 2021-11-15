@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/teei/300/tz_driver/built-in.o :=   rm -f drivers/misc/mediatek/teei/300/tz_driver/built-in.o; /home/kintil12/compile/kelang/bin/aarch64-linux-gnu-ar rcSTPD drivers/misc/mediatek/teei/300/tz_driver/built-in.o drivers/misc/mediatek/teei/300/tz_driver/teei.o 

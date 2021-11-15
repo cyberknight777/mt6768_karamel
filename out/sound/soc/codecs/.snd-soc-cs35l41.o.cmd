@@ -1,0 +1,1 @@
+cmd_sound/soc/codecs/snd-soc-cs35l41.o :=  rm -f sound/soc/codecs/snd-soc-cs35l41.o; /home/kintil12/compile/kelang/bin/aarch64-linux-gnu-ar rcSTPD sound/soc/codecs/snd-soc-cs35l41.o sound/soc/codecs/cs35l41.o sound/soc/codecs/cs35l41-tables.o 

@@ -1,0 +1,23 @@
+!<thin>
+//                                              186       `
+charger_class.o/
+mtk_charger.o/
+mtk_switch_charging.o/
+mtk_pdc_intf.o/
+mtk_chg_type_det.o/
+mtk_pe40_intf.o/
+mtk_linear_charging.o/
+adapter_class.o/
+mtk_pd_adapter.o/
+smb1351-charger.o/
+
+/0              0           0     0     644     74488     `
+/17             0           0     0     644     136152    `
+/32             0           0     0     644     14664     `
+/55             0           0     0     644     16704     `
+/71             0           0     0     644     27800     `
+/91             0           0     0     644     27584     `
+/108            0           0     0     644     11496     `
+/131            0           0     0     644     14280     `
+/148            0           0     0     644     8816      `
+/166            0           0     0     644     106336    `

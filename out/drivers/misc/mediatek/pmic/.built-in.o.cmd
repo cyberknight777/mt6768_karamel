@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/pmic/built-in.o :=   rm -f drivers/misc/mediatek/pmic/built-in.o; /home/kintil12/compile/kelang/bin/aarch64-linux-gnu-ar rcSTPD drivers/misc/mediatek/pmic/built-in.o drivers/misc/mediatek/pmic/common/built-in.o drivers/misc/mediatek/pmic/mt6358/built-in.o drivers/misc/mediatek/pmic/mtk_battery_adc_intf.o 

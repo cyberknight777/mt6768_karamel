@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/connectivity/fmradio/built-in.o :=   rm -f drivers/misc/mediatek/connectivity/fmradio/built-in.o; /home/kintil12/compile/kelang/bin/aarch64-linux-gnu-ar rcSTPD drivers/misc/mediatek/connectivity/fmradio/built-in.o drivers/misc/mediatek/connectivity/fmradio/fmradio_drv.o drivers/misc/mediatek/connectivity/fmradio/dummy.o 

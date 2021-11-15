@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/sensors-1.0/accelerometer/accelhub/built-in.o :=   rm -f drivers/misc/mediatek/sensors-1.0/accelerometer/accelhub/built-in.o; /home/kintil12/compile/kelang/bin/aarch64-linux-gnu-ar rcSTPD drivers/misc/mediatek/sensors-1.0/accelerometer/accelhub/built-in.o drivers/misc/mediatek/sensors-1.0/accelerometer/accelhub/accelhub.o 

@@ -1,0 +1,1 @@
+cmd_sound/soc/hisilicon/built-in.o :=  rm -f sound/soc/hisilicon/built-in.o; /home/kintil12/compile/kelang/bin/aarch64-linux-gnu-ar rcSTPD sound/soc/hisilicon/built-in.o

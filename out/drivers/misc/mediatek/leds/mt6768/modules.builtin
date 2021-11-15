@@ -1,0 +1,4 @@
+kernel/drivers/misc/mediatek/leds/mt6768/mtk_leds.ko
+kernel/drivers/misc/mediatek/leds/mt6768/ktd3136_bl.ko
+kernel/drivers/misc/mediatek/leds/mt6768/ti-lmu-backlight-core.ko
+kernel/drivers/misc/mediatek/leds/mt6768/ti-lmu-backlight-data.ko

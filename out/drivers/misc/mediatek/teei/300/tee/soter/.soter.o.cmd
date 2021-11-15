@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/teei/300/tee/soter/soter.o :=  rm -f drivers/misc/mediatek/teei/300/tee/soter/soter.o; /home/kintil12/compile/kelang/bin/aarch64-linux-gnu-ar rcSTPD drivers/misc/mediatek/teei/300/tee/soter/soter.o drivers/misc/mediatek/teei/300/tee/soter/core.o drivers/misc/mediatek/teei/300/tee/soter/call.o 

@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/masp/built-in.o :=   rm -f drivers/misc/mediatek/masp/built-in.o; /home/kintil12/compile/kelang/bin/aarch64-linux-gnu-ar rcSTPD drivers/misc/mediatek/masp/built-in.o drivers/misc/mediatek/masp/sec.o 

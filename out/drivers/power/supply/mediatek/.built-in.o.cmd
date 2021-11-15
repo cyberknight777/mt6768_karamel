@@ -1,0 +1,1 @@
+cmd_drivers/power/supply/mediatek/built-in.o :=   rm -f drivers/power/supply/mediatek/built-in.o; /home/kintil12/compile/kelang/bin/aarch64-linux-gnu-ar rcSTPD drivers/power/supply/mediatek/built-in.o drivers/power/supply/mediatek/battery/built-in.o drivers/power/supply/mediatek/charger/built-in.o drivers/power/supply/mediatek/misc/built-in.o 

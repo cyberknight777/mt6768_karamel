@@ -1,0 +1,1 @@
+cmd_drivers/iio/common/cros_ec_sensors/built-in.o :=  rm -f drivers/iio/common/cros_ec_sensors/built-in.o; /home/kintil12/compile/kelang/bin/aarch64-linux-gnu-ar rcSTPD drivers/iio/common/cros_ec_sensors/built-in.o

@@ -1,0 +1,17 @@
+!<thin>
+//                                              120       `
+rs_trace.o/
+rs_base.o/
+rs_main.o/
+rs_usage.o/
+rs_state.o/
+platform/mt6768/rs_vpu_pfm.o/
+platform/mt6768/rs_mdla_pfm.o/
+
+/0              0           0     0     644     4912      `
+/12             0           0     0     644     3176      `
+/23             0           0     0     644     2960      `
+/34             0           0     0     644     21704     `
+/46             0           0     0     644     3528      `
+/58             0           0     0     644     1392      `
+/88             0           0     0     644     1400      `

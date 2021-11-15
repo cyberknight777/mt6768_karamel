@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/lens/main3/common/dw9714vaf/built-in.o :=   rm -f drivers/misc/mediatek/lens/main3/common/dw9714vaf/built-in.o; /home/kintil12/compile/kelang/bin/aarch64-linux-gnu-ar rcSTPD drivers/misc/mediatek/lens/main3/common/dw9714vaf/built-in.o drivers/misc/mediatek/lens/main3/common/dw9714vaf/DW9714VAF.o 

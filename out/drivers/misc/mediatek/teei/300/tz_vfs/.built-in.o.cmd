@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/teei/300/tz_vfs/built-in.o :=   rm -f drivers/misc/mediatek/teei/300/tz_vfs/built-in.o; /home/kintil12/compile/kelang/bin/aarch64-linux-gnu-ar rcSTPD drivers/misc/mediatek/teei/300/tz_vfs/built-in.o drivers/misc/mediatek/teei/300/tz_vfs/vfsFun.o drivers/misc/mediatek/teei/300/tz_vfs/fp_vendor.o 

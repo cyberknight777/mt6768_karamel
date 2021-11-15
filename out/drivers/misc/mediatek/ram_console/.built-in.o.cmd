@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/ram_console/built-in.o :=   rm -f drivers/misc/mediatek/ram_console/built-in.o; /home/kintil12/compile/kelang/bin/aarch64-linux-gnu-ar rcSTPD drivers/misc/mediatek/ram_console/built-in.o drivers/misc/mediatek/ram_console/mtk_ram_console.o 

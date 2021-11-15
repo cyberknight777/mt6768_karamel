@@ -1,0 +1,15 @@
+!<thin>
+//                                              122       `
+mtk_vcodec_enc.o/
+mtk_vcodec_enc_drv.o/
+mt6768/mtk_vcodec_enc_pm.o/
+venc_drv_if.o/
+venc/venc_common_if.o/
+venc_vcu_if.o/
+
+/0              0           0     0     644     85104     `
+/18             0           0     0     644     21336     `
+/40             0           0     0     644     11944     `
+/68             0           0     0     644     7720      `
+/83             0           0     0     644     12864     `
+/106            0           0     0     644     14112     `

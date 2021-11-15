@@ -1,0 +1,13 @@
+!<thin>
+//                                              96        `
+industrialio-core.o/
+industrialio-event.o/
+inkern.o/
+adc/mt6577_auxadc.o/
+adc/mt635x-auxadc.o/
+
+/0              0           0     0     644     50928     `
+/21             0           0     0     644     12096     `
+/43             0           0     0     644     31200     `
+/53             0           0     0     644     18872     `
+/74             0           0     0     644     14960     `

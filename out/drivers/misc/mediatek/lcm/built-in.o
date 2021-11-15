@@ -1,0 +1,24 @@
+!<thin>
+//                                              340       `
+mt65xx_lcm_list.o/
+lcm_common.o/
+lcm_gpio.o/
+lcm_i2c.o/
+lcm_pmic.o/
+lcm_util.o/
+ocp2131_bias.o/
+nt36672A_fhdp_dsi_vdo_tianma/nt36672A_fhdp_dsi_vdo_tianma.o/
+ft8719_fhdp_dsi_vdo_xinli/ft8719_fhdp_dsi_vdo_xinli.o/
+nt36672A_fhdp_dsi_vdo_tianma_G6/nt36672A_fhdp_dsi_vdo_tianma_G6.o/
+nt36672D_fhdp_dsi_vdo_tianma/nt36672D_fhdp_dsi_vdo_tianma.o/
+/0              0           0     0     644     1720      `
+/19             0           0     0     644     1008      `
+/33             0           0     0     644     1008      `
+/45             0           0     0     644     1072      `
+/56             0           0     0     644     4048      `
+/68             0           0     0     644     1008      `
+/80             0           0     0     644     5400      `
+/96             0           0     0     644     27488     `
+/157            0           0     0     644     30544     `
+/212            0           0     0     644     27504     `
+/279            0           0     0     644     27848     `

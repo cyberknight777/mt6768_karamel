@@ -1,0 +1,1 @@
+cmd_sound/soc/codecs/snd-soc-wm-adsp.o :=  rm -f sound/soc/codecs/snd-soc-wm-adsp.o; /home/kintil12/compile/kelang/bin/aarch64-linux-gnu-ar rcSTPD sound/soc/codecs/snd-soc-wm-adsp.o sound/soc/codecs/wm_adsp.o 

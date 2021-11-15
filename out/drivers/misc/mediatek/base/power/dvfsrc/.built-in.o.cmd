@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/base/power/dvfsrc/built-in.o :=   rm -f drivers/misc/mediatek/base/power/dvfsrc/built-in.o; /home/kintil12/compile/kelang/bin/aarch64-linux-gnu-ar rcSTPD drivers/misc/mediatek/base/power/dvfsrc/built-in.o drivers/misc/mediatek/base/power/dvfsrc/dvfsrc-boost-driver.o 

@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/zone_movable_cma/built-in.o :=   rm -f drivers/misc/mediatek/zone_movable_cma/built-in.o; /home/kintil12/compile/kelang/bin/aarch64-linux-gnu-ar rcSTPD drivers/misc/mediatek/zone_movable_cma/built-in.o drivers/misc/mediatek/zone_movable_cma/single_cma.o drivers/misc/mediatek/zone_movable_cma/zmc_notify.o 

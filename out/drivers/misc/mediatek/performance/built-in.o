@@ -1,0 +1,64 @@
+!<thin>
+//                                              862       `
+perfmgr_main.o/
+base/utility.o/
+boost_ctrl/boostctrl_main.o/
+boost_ctrl/dram_ctrl/dram_ctrl.o/
+boost_ctrl/cpu_ctrl/cpu_ctrl.o/
+boost_ctrl/eas_ctrl/eas_ctrl.o/
+boost_ctrl/topo_ctrl/topo_ctrl.o/
+tchbst/tchbst_main.o/
+tchbst/user/utch.o/
+tchbst/kernel/ktch.o/
+syslimiter/syslimiter.o/
+resym/rs_trace.o/
+resym/rs_base.o/
+resym/rs_main.o/
+resym/rs_usage.o/
+resym/rs_state.o/
+resym/platform/mt6768/rs_vpu_pfm.o/
+resym/platform/mt6768/rs_mdla_pfm.o/
+perf_ioctl/perf_ioctl.o/
+fpsgo_v3/fpsgo_main.o/
+fpsgo_v3/base/src/fpsgo_base.o/
+fpsgo_v3/base/src/fpsgo_sysfs.o/
+fpsgo_v3/composer/src/fps_composer.o/
+fpsgo_v3/fbt/platform/mt6768/fbt_cpu_platform.o/
+fpsgo_v3/fbt/src/fbt_cpu.o/
+fpsgo_v3/fbt/src/xgf.o/
+fpsgo_v3/fbt/src/mini_top.o/
+fpsgo_v3/fstb/fstb.o/
+eara_thermal/platform/mt6768/thermal_budget_platform.o/
+eara_thermal/thermal_budget.o/
+eara_thermal/thermal_base.o/
+/0              0           0     0     644     5448      `
+/16             0           0     0     644     7080      `
+/32             0           0     0     644     2488      `
+/61             0           0     0     644     10576     `
+/95             0           0     0     644     31992     `
+/127            0           0     0     644     71640     `
+/159            0           0     0     644     12296     `
+/193            0           0     0     644     2232      `
+/215            0           0     0     644     20864     `
+/235            0           0     0     644     16936     `
+/257            0           0     0     644     18232     `
+/282            0           0     0     644     4912      `
+/300            0           0     0     644     3176      `
+/317            0           0     0     644     2960      `
+/334            0           0     0     644     21704     `
+/352            0           0     0     644     3528      `
+/370            0           0     0     644     1392      `
+/406            0           0     0     644     1400      `
+/443            0           0     0     644     10584     `
+/468            0           0     0     644     37120     `
+/491            0           0     0     644     33808     `
+/523            0           0     0     644     5288      `
+/556            0           0     0     644     17824     `
+/594            0           0     0     644     6232      `
+/643            0           0     0     644     110320    `
+/671            0           0     0     644     54616     `
+/695            0           0     0     644     30896     `
+/724            0           0     0     644     53888     `
+/746            0           0     0     644     2520      `
+/802            0           0     0     644     107520    `
+/833            0           0     0     644     5992      `

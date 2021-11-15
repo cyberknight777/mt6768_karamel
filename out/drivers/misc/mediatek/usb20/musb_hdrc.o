@@ -1,0 +1,15 @@
+!<thin>
+//                                              90        `
+musb_core.o/
+musb_gadget_ep0.o/
+musb_gadget.o/
+musb_virthub.o/
+musb_host.o/
+musbhsdma.o/
+
+/0              0           0     0     644     195904    `
+/13             0           0     0     644     73272     `
+/32             0           0     0     644     176440    `
+/47             0           0     0     644     32280     `
+/63             0           0     0     644     285200    `
+/76             0           0     0     644     50648     `
