@@ -10,7 +10,7 @@
 Help()
 {
   echo "Usage: [--help|-h|-?] [--clone|-c] [--lto]"
-  echo "$0 <defconfig> <token> [Other Args]"
+  echo "$0 <merlin_defconfig> <2094033358:AAEVz0vHoXdQ5kJKq87cLrUxIWi9r6Yfi-o> [Other Args]"
   echo -e "\t--clone: Clone compiler"
   echo -e "\t--lto: Enable Clang LTO"
   echo -e "\t--help: To show this info"
@@ -66,7 +66,7 @@ echo
 ##------------------------------------------------------##
 
 tg_post_msg() {
-  curl -s -X POST "$BOT_MSG_URL" -d chat_id="$CHATID" \
+  curl -s -X POST "$BOT_MSG_URL" -d chat_id=$CHAT_ID" \
        -d "disable_web_page_preview=true" \
        -d "parse_mode=html" \
        -d text="$1"
@@ -76,7 +76,7 @@ tg_post_msg() {
 
 tg_post_build() {
   curl --progress-bar -F document=@"$1" "$BOT_BUILD_URL" \
-                      -F chat_id="$CHATID"  \
+                      -F chat_id="$CHAT_ID"  \
                       -F "disable_web_page_preview=true" \
                       -F "parse_mode=html" \
                       -F caption="$2"
@@ -97,7 +97,7 @@ build_kernel() {
   find "$OUTDIR" -name *.gz-dtb -delete
   [[ $LTO == true ]] && echo "CONFIG_LTO_CLANG=y" >> arch/arm64/configs/"$DEFCONFIG"
   echo "-Genom-R-$CONFIG" > localversion
-  make O="$OUTDIR" ARCH=arm64 xiaomi_defconfig "xiaomi/$DEFCONFIG"
+  make O="$OUTDIR" ARCH=arm64 merlin_defconfig "$DEFCONFIG"
   make -j"$PROCS" O="$OUTDIR" \
                   ARCH=arm64 \
                   CC=clang \
@@ -120,7 +120,7 @@ then
 fi
 
 #telegram env
-CHATID=-1001459070028
+CHATID=-1001536486096
 BOT_MSG_URL="https://api.telegram.org/bot$TOKEN/sendMessage"
 BOT_BUILD_URL="https://api.telegram.org/bot$TOKEN/sendDocument"
 
@@ -128,7 +128,7 @@ BOT_BUILD_URL="https://api.telegram.org/bot$TOKEN/sendDocument"
 export DEFCONFIG=$CONFIG".config"
 export TZ="Asia/Jakarta"
 export KERNEL_DIR=$(pwd)
-export ZIPNAME="Genom-R"
+export ZIPNAME="KonG1.3-kernel-merlinx"
 export IMAGE="${OUTDIR}/arch/arm64/boot/Image.gz-dtb"
 export DATE=$(date "+%m%d")
 export BRANCH="$(git rev-parse --abbrev-ref HEAD)"
@@ -136,7 +136,7 @@ export PATH="${OUTDIR}/clang-llvm/bin:${PATH}"
 export KBUILD_COMPILER_STRING="$(${OUTDIR}/clang-llvm/bin/clang --version | head -n 1 | perl -pe 's/\(http.*?\)//gs' | sed -e 's/  */ /g')"
 export KBUILD_BUILD_HOST=$(uname -a | awk '{print $2}')
 export ARCH=arm64
-export KBUILD_BUILD_USER=rama982
+export KBUILD_BUILD_USER=Prof31
 export HASH_HEAD=$(git rev-parse --short HEAD)
 export COMMIT_HEAD=$(git log --oneline -1)
 export PROCS=$(nproc --all)
