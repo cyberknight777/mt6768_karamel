@@ -1,26 +1,26 @@
 #!/bin/bash
 #
-# Compile script for QuicksilveR kernel
-# Copyright (C) 2020-2021 Adithya R.
+# Compile script for KonG kernel
+# Copyright (C) 2021 by cloudprject.
 
 SECONDS=0 # builtin bash timer
-ZIPNAME="QuicksilveRV2-ginkgo-$(date '+%Y%m%d-%H%M').zip"
-TC_DIR="$HOME/tc/proton-clang"
-AK3_DIR="$HOME/android/AnyKernel3"
-DEFCONFIG="vendor/ginkgo-perf_defconfig"
+ZIPNAME="KonG1.3-kernel-merlinx-$(date '+%Y%m%d-%H%M').zip"
+TC_DIR="$(pwd)/compile/kelang"
+AK3_DIR="$(pwd)/compile/AnyKernel3"
+DEFCONFIG="merlin_defconfig"
 
 export PATH="$TC_DIR/bin:$PATH"
 
 if ! [ -d "$TC_DIR" ]; then
 echo "Proton clang not found! Cloning to $TC_DIR..."
-if ! git clone -q --depth=1 --single-branch https://github.com/kdrag0n/proton-clang $TC_DIR; then
+if ! git clone -main --depth=1 https://github.com/xyz-prjkt/xRageTC-clang kelang $TC_DIR; then
 echo "Cloning failed! Aborting..."
 exit 1
 fi
 fi
 
-export KBUILD_BUILD_USER=adithya
-export KBUILD_BUILD_HOST=ghostrider_reborn
+export KBUILD_BUILD_USER=Prof31
+export KBUILD_BUILD_HOST=cloudprject
 
 if [[ $1 = "-r" || $1 = "--regen" ]]; then
 make O=out ARCH=arm64 $DEFCONFIG savedefconfig
@@ -42,7 +42,7 @@ if [ -f "out/arch/arm64/boot/Image.gz-dtb" ] && [ -f "out/arch/arm64/boot/dtbo.i
 echo -e "\nKernel compiled succesfully! Zipping up...\n"
 if [ -d "$AK3_DIR" ]; then
 cp -r $AK3_DIR AnyKernel3
-elif ! git clone -q https://github.com/ghostrider-reborn/AnyKernel3; then
+elif ! git clone -q https://github.com/cloudprject/AnyKernel3; then
 echo -e "\nAnyKernel3 repo not found locally and cloning failed! Aborting..."
 exit 1
 fi
@@ -57,7 +57,7 @@ rm -rf AnyKernel3
 rm -rf out/arch/arm64/boot
 echo -e "\nCompleted in $((SECONDS / 60)) minute(s) and $((SECONDS % 60)) second(s) !"
 echo "Zip: $ZIPNAME"
-if ! [[ $HOSTNAME = "RyzenBeast" && $USER = "adithya" ]]; then
+if ! [[ $HOSTNAME = "cloudprject" && $USER = "Prof31" ]]; then
 curl --upload-file $ZIPNAME http://transfer.sh/$ZIPNAME; echo
 fi
 else
